@@ -1,4 +1,3 @@
-
 # Create react app with typescript from scratch
 
 ```bash
@@ -17,12 +16,16 @@ yarn add -D webpack webpack-cli webpack-dev-server style-loader css-loader copy-
 yarn add -D ts-loader
 
 # add react libralies
-yarn add react react-dom
+yarn add react react-dom css-module-types
 yarn add typescript @types/node @types/react @types/react-dom @types/jest
 
 # create gitignore
 touch .gitignore
 vi .gitignore
+
+# create global.d.ts
+touch global.d.ts
+vi global.d.ts
 
 # create webpack.config.js
 touch webpack.config.js
